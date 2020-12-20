@@ -1,0 +1,26 @@
+# JWT_AUTH
+
+TODO:
+- Add login IP to device
+
+
+Example .env file
+----
+- ENV_TYPE=development
+- MYSQL_HOST=localhost
+- MYSQL_PORT=25060
+- MYSQL_USER=root
+- MYSQL_PASSWORD=
+- MYSQL_DATABASE=
+- MYSQL_SSLKEY=
+- TOKENS_ACCESS_TOKEN_DURATION=15
+- TOKENS_REFRESH_TOKEN_DURATION=60
+- TOKENS_PRIVATE_KEY=./dev_secrets/private_key.pem
+- TOKENS_PUBLIC_KEY=./dev_secrets/public_key.pub
+- EMAIL_ADDRESS=
+- SMTP_USERNAME=
+- SMTP_PASSWORD=
+- SMTP_HOST=
+- SMTP_PORT=587
+- HOST=http://localhost:3000
+- PORT=:4000
